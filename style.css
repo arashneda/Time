@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 50px 0;
+    color: azure;
+    font-size: 3rem;
+    text-shadow: 0 3px 5px black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-Container {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+box-shadow: 0 3px 5px rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+}
+
+.hourContain,
+.minoteContain,
+.secondContain ,.dateContain{
+  width: 20%;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 0 3px 5px black;
+
+}
+
+.Hour,
+.Minutes,
+.Second , .mounth{
+  background-color: rgba(83, 46, 245, 0.8);
+  padding: 25px 0;
+  border-radius: 20px  5px 0 0 ;
+  font-size: 2.5rem;
+
+
+}
+.HourNum,
+.MinutesNum,
+.SecondNum , .day{
+  background-color: rgba(1, 2, 53, 0.8);
+  padding: 20px 0;
+  text-transform: uppercase;
+  border-radius: 0 0 20px 5px;
+  letter-spacing: 2px;
+
+}
